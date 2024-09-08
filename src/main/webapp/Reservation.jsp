@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="col-lg-6 m-auto">
-    <form method="POST">
+    <form action="<%= request.getContextPath() %>/reservation"  method="POST">
         <br><br><div class="card">
             <div class="card-header bg-primary">
                 <h1 class="text-white text-center">Add Reservation</h1>

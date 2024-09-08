@@ -13,7 +13,7 @@ public class Login_Dao {
 	private String jdbcUsername="root";
 	private String jdbcPassword="#J@pre%914*priya&";
 
-	private static final String INSERT_USERS_SQL ="INSERT INTO login (email,password,usertype)"+"VALUES(?,?,?)";
+	private static final String INSERT_USERS_SQL ="INSERT INTO login(email,password,usertype)"+"VALUES(?,?,?)";
 	
 	public Login_Dao() {
 	}

@@ -14,7 +14,7 @@ import Dao.Admin_Dao;
  * Servlet implementation class Admin_Servlet
  */
 
-@WebServlet(name = "EmployeServlet", urlPatterns = {"/adminlogin"})
+@WebServlet(urlPatterns = {"/adminlogin"})
 public class Admin_Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

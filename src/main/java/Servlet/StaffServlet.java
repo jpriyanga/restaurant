@@ -68,7 +68,7 @@ private Staff_Dao StaffDao;
 			e.printStackTrace();
 		}
 		
-		response.sendRedirect("");
+		response.sendRedirect("Staff.jsp");
 		// TODO Auto-generated method stub
 		//doGet(request, response);
 	}

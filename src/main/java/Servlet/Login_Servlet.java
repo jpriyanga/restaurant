@@ -14,7 +14,7 @@ import Dao.Login_Dao;
 /**
  * Servlet implementation class Login_Servlet
  */
-@WebServlet(name = "EmployeServlet", urlPatterns = {"/login"})
+@WebServlet(urlPatterns = {"/login"})
 public class Login_Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -63,7 +63,7 @@ private Login_Dao LoginDao;
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-		response.sendRedirect("NewFile.jsp");
+		response.sendRedirect("Customer.jsp");
 		
 		// TODO Auto-generated method stub
 		//doGet(request, response);

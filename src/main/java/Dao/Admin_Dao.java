@@ -22,7 +22,7 @@ public class Admin_Dao {
 		Connection connection = null;
 		
 		try {
-			Class.forName("com.mysql.cj.jdbc.driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/work", "root", "#J@pre%914*priya&");
 			
